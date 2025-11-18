@@ -1,9 +1,6 @@
 #Welcome to Ulitmate Chef ! This is the starter repository where you'll build a production-ready ADK agent step by step.
 
 ## 🚀 What You'll Build
-
-In this lab, you'll focus on critical deployment aspects:
-
 1. **Deploy Gemma to Cloud Run with GPU** - Set up a high-performance Gemma model backend
 2. **Integrate the Gemma deployment with an ADK agent** - Connect your agent to the GPU-accelerated model
 3. **Test with ADK Web interface** - Validate your conversational agent works correctly
@@ -14,17 +11,17 @@ In this lab, you'll focus on critical deployment aspects:
 ```
 Mychef2/
 ├── README.md                    # This file
-├── ollama-backend/              # Ollama backend (separate deployment)
-│   └── Dockerfile               # Backend container (TODO: implement)
-└── adk-agent/                   # ADK agent (separate deployment)
-    ├── pyproject.toml           # Python dependencies (complete)
-    ├── env.template             # Environment template (complete)
-    ├── server.py                # FastAPI server (TODO: implement)
-    ├── Dockerfile               # Container config (TODO: implement)
-    ├── elasticity_test.py       # Elasticity testing (TODO: implement)
+├── ollama-backend/              # Ollama backend 
+│   └── Dockerfile               # Backend container 
+└── adk-agent/                   # ADK agent 
+    ├── pyproject.toml           # Python dependencies 
+    ├── env.template             # Environment template 
+    ├── server.py                # FastAPI server 
+    ├── Dockerfile               # Container config 
+    ├── elasticity_test.py       # Elasticity testing 
     └── production_agent/        # Agent implementation
-        ├── __init__.py          # Package init (complete)
-        └── agent.py             # Agent logic (TODO: implement)
+        ├── __init__.py          # Package init 
+        └── agent.py             # Agent logic 
 ```
 
 ## 🎯 Files to Complete
