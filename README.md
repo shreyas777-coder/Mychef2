@@ -43,13 +43,12 @@ You'll need to implement the following files by following the codelab instructio
 
 ## 📚 Getting Started
 
-1. Follow the instructions to implement each TODO section
+1. Follow the instructions
 2. Copy and paste the provided commands
 3. Deploy Gemma backend to Cloud Run with GPU
 4. Deploy ADK agent and test with elasticity testing
 
 ## 🔗 Resources
 
-- [Complete Solution](https://github.com/amitkmaraj/accelerate-ai-lab3-complete)
 - [Google ADK Documentation](https://cloud.google.com/agent-development-kit)
 - [Cloud Run Documentation](https://cloud.google.com/run/docs)
