@@ -12,7 +12,7 @@ In this lab, you'll focus on critical deployment aspects:
 ## 📁 Starter Structure
 
 ```
-accelerate-ai-lab3-starter/
+Mychef2/
 ├── README.md                    # This file
 ├── ollama-backend/              # Ollama backend (separate deployment)
 │   └── Dockerfile               # Backend container (TODO: implement)
